@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "^16.5.0",
+    }
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+        "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+  },
+  "rules": {
+    "jsx-quotes": ["warn", "prefer-single"],
+    "quotes": ["warn", "single", { "avoidEscape": true }],
+    "semi": ["warn", "never"]
+  }
+}

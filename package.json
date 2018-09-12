@@ -1,0 +1,26 @@
+{
+  "name": "react-parcel-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html -d dev --no-cache --port 5000 --no-autoinstall",
+    "build": "parcel build src/index.html --no-cache --no-autoinstall"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.5.0",
+    "eslint-plugin-react": "^7.11.1",
+    "parcel-bundler": "^1.9.7",
+    "parcel-plugin-eslint": "^1.0.4"
+  }
+}
